@@ -189,6 +189,84 @@ END ENCRYPT_PKG;
 -- Cap quyen thuc thi goi ma hoa cho Role
 GRANT EXECUTE ON NAM_DOAN.ENCRYPT_PKG TO ROLE_USERS;
 
+-- 4.2 PACKAGE MA HOA FILE (DES)
+CREATE OR REPLACE PACKAGE NAM_DOAN.DES_PKG AS
+    PROCEDURE encrypt_file(
+        p_input  IN BLOB,
+        p_key    IN VARCHAR2,
+        p_output OUT BLOB
+    );
+    PROCEDURE decrypt_file(
+        p_input  IN BLOB,
+        p_key    IN VARCHAR2,
+        p_output OUT BLOB
+    );
+END DES_PKG;
+/
+
+CREATE OR REPLACE PACKAGE BODY NAM_DOAN.DES_PKG AS
+
+    -- Helper converts string key to raw
+    FUNCTION get_raw_key(p_key VARCHAR2) RETURN RAW IS
+    BEGIN
+        -- Convert string key to RAW. 
+        -- Note: DES 64-bit key (8 bytes). 
+        -- User provides 8-char string -> 8 bytes.
+        RETURN UTL_RAW.CAST_TO_RAW(p_key);
+    END;
+
+    PROCEDURE encrypt_file(
+        p_input  IN BLOB,
+        p_key    IN VARCHAR2,
+        p_output OUT BLOB
+    ) IS
+        v_key_raw     RAW(128);
+    BEGIN
+        v_key_raw := get_raw_key(p_key);
+        
+        -- Initialize output BLOB
+        DBMS_LOB.CREATETEMPORARY(p_output, TRUE);
+
+        -- Encrypt
+        -- DES + CBC + PKCS5
+        DBMS_CRYPTO.ENCRYPT(
+            dst => p_output,
+            src => p_input,
+            typ => DBMS_CRYPTO.ENCRYPT_DES + DBMS_CRYPTO.CHAIN_CBC + DBMS_CRYPTO.PAD_PKCS5,
+            key => v_key_raw,
+            iv  => NULL -- Default IV (all zeros) for simplicity matching simple usages
+        );
+    END;
+
+    PROCEDURE decrypt_file(
+        p_input  IN BLOB,
+        p_key    IN VARCHAR2,
+        p_output OUT BLOB
+    ) IS
+        v_key_raw     RAW(128);
+    BEGIN
+        v_key_raw := get_raw_key(p_key);
+
+        -- Initialize output BLOB
+        DBMS_LOB.CREATETEMPORARY(p_output, TRUE);
+
+        -- Decrypt
+        DBMS_CRYPTO.DECRYPT(
+            dst => p_output,
+            src => p_input,
+            typ => DBMS_CRYPTO.ENCRYPT_DES + DBMS_CRYPTO.CHAIN_CBC + DBMS_CRYPTO.PAD_PKCS5,
+            key => v_key_raw,
+            iv  => NULL
+        );
+    END;
+
+END DES_PKG;
+/
+
+-- Cap quyen thuc thi goi ma hoa DES cho Role
+GRANT EXECUTE ON NAM_DOAN.DES_PKG TO ROLE_USERS;
+
+
 
 -- =========================================================================
 -- 5. FUNCTION HE THONG (CHECK USER, SESSION, LAY ID)
