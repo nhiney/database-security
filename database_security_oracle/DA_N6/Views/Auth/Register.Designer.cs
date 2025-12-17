@@ -200,16 +200,69 @@ namespace DA_N6
             this.panelAddr.Controls.Add(this.txtAddress);
 
             // 
+            // grpAdvanced (New)
+            // 
+            this.grpAdvanced = new GroupBox();
+            this.grpAdvanced.Text = "Xác thực nâng cao (Tùy chọn)";
+            this.grpAdvanced.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            this.grpAdvanced.Location = new Point(50, 450);
+            this.grpAdvanced.Size = new Size(400, 200);
+            this.panelCard.Controls.Add(this.grpAdvanced);
+
+            // Face Area
+            this.picFace = new PictureBox();
+            this.picFace.BorderStyle = BorderStyle.FixedSingle;
+            this.picFace.Location = new Point(20, 30);
+            this.picFace.Size = new Size(120, 120);
+            this.picFace.SizeMode = PictureBoxSizeMode.Zoom;
+            this.grpAdvanced.Controls.Add(this.picFace);
+
+            this.btnCaptureFace = new Button();
+            this.btnCaptureFace.Text = "Chụp";
+            this.btnCaptureFace.Font = new Font("Segoe UI", 9F);
+            this.btnCaptureFace.Location = new Point(20, 155);
+            this.btnCaptureFace.Size = new Size(60, 30); // Smaller width to fit both
+            this.btnCaptureFace.Click += new EventHandler(this.btnCaptureFace_Click);
+            this.grpAdvanced.Controls.Add(this.btnCaptureFace);
+
+            // 
+            // btnUploadFace (New)
+            // 
+            this.btnUploadFace = new Button();
+            this.btnUploadFace.Text = "Tải Ảnh";
+            this.btnUploadFace.Font = new Font("Segoe UI", 9F);
+            this.btnUploadFace.Location = new Point(85, 155); // Next to Capture
+            this.btnUploadFace.Size = new Size(55, 30);
+            this.btnUploadFace.Click += new EventHandler(this.btnUploadFace_Click);
+            this.grpAdvanced.Controls.Add(this.btnUploadFace);
+
+            // QR Area
+            this.picQR = new PictureBox();
+            this.picQR.BorderStyle = BorderStyle.FixedSingle;
+            this.picQR.Location = new Point(260, 30);
+            this.picQR.Size = new Size(120, 120);
+            this.picQR.SizeMode = PictureBoxSizeMode.Zoom;
+            this.grpAdvanced.Controls.Add(this.picQR);
+
+            this.btnGenerateQR = new Button();
+            this.btnGenerateQR.Text = "Tạo QR";
+            this.btnGenerateQR.Font = new Font("Segoe UI", 9F);
+            this.btnGenerateQR.Location = new Point(260, 155);
+            this.btnGenerateQR.Size = new Size(120, 30);
+            this.btnGenerateQR.Click += new EventHandler(this.btnGenerateQR_Click);
+            this.grpAdvanced.Controls.Add(this.btnGenerateQR);
+
+            // 
             // btnRegister
             // 
             this.btnRegister.Text = "Đăng Ký";
-            this.btnRegister.Font = new Font("Segoe UI", 14F, FontStyle.Bold); // Larger Font
+            this.btnRegister.Font = new Font("Segoe UI", 14F, FontStyle.Bold); 
             this.btnRegister.ForeColor = Color.White;
             this.btnRegister.BackColor = Color.FromArgb(91, 155, 213); 
             this.btnRegister.FlatStyle = FlatStyle.Flat;
             this.btnRegister.FlatAppearance.BorderSize = 0;
-            this.btnRegister.Size = new Size(400, 50); // Larger Button
-            this.btnRegister.Location = new Point(50, 480);
+            this.btnRegister.Size = new Size(400, 50); 
+            this.btnRegister.Location = new Point(50, 670); // Moved Down
             this.btnRegister.Cursor = Cursors.Hand;
             this.btnRegister.Click += new EventHandler(this.btnRegister_Click);
             this.panelCard.Controls.Add(this.btnRegister);
@@ -218,11 +271,11 @@ namespace DA_N6
             // linkLogin
             // 
             this.linkLogin.Text = "Đã có tài khoản? Đăng nhập";
-            this.linkLogin.Font = new Font("Segoe UI", 10F); // Larger Font
+            this.linkLogin.Font = new Font("Segoe UI", 10F); 
             this.linkLogin.LinkColor = Color.FromArgb(91, 155, 213);
             this.linkLogin.ActiveLinkColor = Color.FromArgb(0, 122, 255);
             this.linkLogin.AutoSize = true;
-            this.linkLogin.Location = new Point(130, 550);
+            this.linkLogin.Location = new Point(130, 740); // Moved Down
             this.linkLogin.Cursor = Cursors.Hand;
             this.linkLogin.LinkClicked += new LinkLabelLinkClickedEventHandler(this.btnLogin_Click); 
             this.panelCard.Controls.Add(this.linkLogin);
@@ -252,7 +305,14 @@ namespace DA_N6
         private Label lblAddrIcon;
         private TextBox txtAddress;
 
+        private GroupBox grpAdvanced;
+        private PictureBox picFace;
+        private Button btnCaptureFace;
+        private PictureBox picQR;
+        private Button btnGenerateQR;
+
         private Button btnRegister;
         private LinkLabel linkLogin;
+        private Button btnUploadFace; // New Button
     }
 }

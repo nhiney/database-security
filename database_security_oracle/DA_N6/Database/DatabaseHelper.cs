@@ -162,5 +162,39 @@ namespace DA_N6.Database
                 }
             }
         }
+
+        /// Thực thi SQL trực tiếp (ExecuteNonQuery) - Dùng cho UPDATE, INSERT, DELETE, CREATE, DROP...
+        public static void ExecuteSQL(string sql)
+        {
+            using (var cmd = new OracleCommand(sql, GetActiveConnection()))
+            {
+                cmd.CommandType = CommandType.Text;
+                try
+                {
+                    cmd.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception($"Lỗi khi chạy lệnh SQL: {ex.Message}", ex);
+                }
+            }
+        }
+
+        /// Thực thi SQL trả về 1 giá trị (ExecuteScalar)
+        public static object ExecuteScalar(string sql)
+        {
+            using (var cmd = new OracleCommand(sql, GetActiveConnection()))
+            {
+                cmd.CommandType = CommandType.Text;
+                try
+                {
+                    return cmd.ExecuteScalar();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception($"Lỗi khi chạy Scalar SQL: {ex.Message}", ex);
+                }
+            }
+        }
     }
 }
