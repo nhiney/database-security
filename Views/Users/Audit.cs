@@ -19,6 +19,8 @@ namespace DA_N6.Views.Users
     {
         private OracleConnection conn;
         private bool isSysUser;
+        private bool isLoadingUser = false; //BIẾN CỜ ĐỂ LOAD USER
+
         // Lưu cấu hình audit tạm thời: BẢNG -> DANH SÁCH QUYỀN
         private Dictionary<string, List<string>> objectAuditBuffer
             = new Dictionary<string, List<string>>();
@@ -32,29 +34,14 @@ namespace DA_N6.Views.Users
             CenterToScreen();
             conn = DataBase.Get_Connect();
 
-            SetupEventHandlers();
+           
             //LOAD BẢNG
             LoadTablesFromSP();
 
             load_Cbo_user(conn);
         }
-        private void SetupEventHandlers()
-        {
-            // Sự kiện khi chọn user
-            cbb_LIST_USER.SelectedIndexChanged += cbb_LIST_USER_SelectedIndexChanged;
-
-            // Nút Áp dụng
-            btnAD.Click += btnAD_Click;
-
-            // Nút Xóa
-            btnX.Click += btnX_Click;
-
-            //CHỌN CÁC BẢNG
-            clbTable.ItemCheck += clbTable_ItemCheck;
-
-
-
-        }
+       
+        
         private void load_Cbo_user(OracleConnection conn)
         {
             try
@@ -113,8 +100,13 @@ namespace DA_N6.Views.Users
                         }
                     }
 
+                    isLoadingUser = true;
+
                     if (cbb_LIST_USER.Items.Count > 0)
                         cbb_LIST_USER.SelectedIndex = 0;
+
+                    isLoadingUser = false;
+
                 }
             }
             catch (OracleException ex)
@@ -135,7 +127,8 @@ namespace DA_N6.Views.Users
 
         private void cbb_LIST_USER_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cbb_LIST_USER.SelectedItem != null)
+            if (isLoadingUser) return;
+            if (cbb_LIST_USER.SelectedItem != null)
             {
                 var selectedUser = (dynamic)cbb_LIST_USER.SelectedItem;
                 string username = selectedUser.EncryptedName;
@@ -413,8 +406,7 @@ namespace DA_N6.Views.Users
         }
         private void LoadAuditLogsByUser(string username)
         {
-            
-            MessageBox.Show("Tên user đã mã hóa để lấy log: " + username);
+           
             try
             {
                 using (OracleCommand cmd = new OracleCommand("SP_GET_AUDIT_LOGS_BY_USER", conn))
