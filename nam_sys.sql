@@ -1,77 +1,94 @@
 
--- 1. TAO USER
-
--- DROP USER NAM_DOAN CASCADE;
 CREATE USER NAM_DOAN IDENTIFIED BY NAM_DOAN;
 
--- 2. CAP QUYEN HE THONG CO BAN
-GRANT CREATE SESSION TO NAM_DOAN;           -- Quyen dang nhap
-GRANT CREATE TABLE TO NAM_DOAN;             -- Quyen tao bang
-GRANT CREATE USER TO NAM_DOAN;              -- Quyen tao user con
-GRANT CREATE PROCEDURE TO NAM_DOAN;         -- Quyen tao thu tuc
-GRANT CREATE ROLE TO NAM_DOAN;              -- Quyen tao nhom quyen
-GRANT ALTER USER TO NAM_DOAN;               -- Quyen sua doi user
-GRANT DROP USER TO NAM_DOAN;                -- Quyen xoa user
-GRANT GRANT ANY PRIVILEGE TO NAM_DOAN;      -- Quyen cap quyen cho user khac
 GRANT INHERIT PRIVILEGES ON USER SYS TO NAM_DOAN;
 
--- Cap cac role co san
+GRANT CREATE TABLE TO NAM_DOAN;
+GRANT CREATE USER TO NAM_DOAN;
+GRANT CREATE SESSION TO NAM_DOAN;
+GRANT GRANT ANY PRIVILEGE TO NAM_DOAN;
+GRANT ALTER USER TO NAM_DOAN;
 GRANT CONNECT, RESOURCE TO NAM_DOAN;
-GRANT SELECT ANY DICTIONARY TO NAM_DOAN;    -- De tra cuu bang he thong (DBA_TAB_PRIVS)
-GRANT GRANT ANY ROLE TO NAM_DOAN;           -- De cap role cho user khac
+GRANT CREATE PROCEDURE TO NAM_DOAN;
+GRANT CREATE ROLE TO NAM_DOAN;
+GRANT EXECUTE ON PKG_LOGOUT TO NAM_DOAN;
 
--- 3. QUAN LY TABLESPACE (CHUA DU LIEU)
--- Cap quyen tao va xoa Tablespace
+-- PROFILE
+GRANT ALTER PROFILE TO NAM_DOAN;
+GRANT SELECT ON DBA_PROFILES TO NAM_DOAN;
+
+-- CREATE QUOTA
+-- 1. Cấp quy�?n tạo Tablespace trực tiếp 
 GRANT CREATE TABLESPACE TO NAM_DOAN;
+
+-- 2. Cấp quy�?n xóa Tablespace
 GRANT DROP TABLESPACE TO NAM_DOAN;
 
--- Cap han muc (Quota) tren Users tablespace
+-- 3. Cấp quy�?n quản lý User trực tiếp
+GRANT ALTER USER TO NAM_DOAN;
+GRANT DROP USER TO NAM_DOAN;
+GRANT CREATE USER TO NAM_DOAN;
+
 ALTER USER NAM_DOAN QUOTA 100M ON USERS;
 
--- 4. CAP QUYEN TRUY CAP CAC VIEW HE THONG (DE QUAN LY SESSION)
--- Tao View boc V_$SESSION de de quan ly
+-- View V$SESSION
 CREATE OR REPLACE VIEW V_SESSION AS
 SELECT * FROM V_$SESSION;
 
--- Cap quyen select view nay cho NAM_DOAN (kem quyen cap lai cho nguoi khac)
-GRANT SELECT ON V_SESSION TO NAM_DOAN WITH GRANT OPTION;
+-- View profile
+CREATE OR REPLACE VIEW V_SECURITY_POLICIES AS
+SELECT 
+    PROFILE, 
+    RESOURCE_NAME, 
+    LIMIT
+FROM DBA_PROFILES
+WHERE RESOURCE_NAME IN (
+    'FAILED_LOGIN_ATTEMPTS', -- Số lần đăng nhập sai tối đa
+    'PASSWORD_LOCK_TIME',    -- Th�?i gian khóa (ngày)
+    'PASSWORD_LIFE_TIME',    -- Th�?i gian hết hạn mật khẩu (ngày)
+    'PASSWORD_GRACE_TIME',   -- Th�?i gian cảnh báo đổi pass (ngày)
+    'SESSIONS_PER_USER',     -- Số session tối đa 1 user
+    'IDLE_TIME'              -- Th�?i gian tự logout khi treo máy (phút)
+)
+AND PROFILE = 'DEFAULT' -- Thư�?ng ta chỉnh trên profile DEFAULT
+ORDER BY RESOURCE_NAME;
 
--- 5. TAO PACKAGE QUAN LY LOGOUT (KILL SESSION)
+GRANT SELECT ON V_SESSION TO NAM_DOAN WITH GRANT OPTION;
+-- LOGOUT
 CREATE OR REPLACE PACKAGE PKG_LOGOUT
 AUTHID DEFINER AS
   PROCEDURE P_LOGOUT_CURRENT(p_username IN VARCHAR2);
   PROCEDURE P_LOGOUT_ALL(p_username IN VARCHAR2);
   PROCEDURE P_LOGOUT_BY_MACHINE(p_username IN VARCHAR2, p_machine IN VARCHAR2);
 END PKG_LOGOUT;
-/
 
 CREATE OR REPLACE PACKAGE BODY PKG_LOGOUT AS
-  -- Dang xuat thiet bi hien tai cua user dang dang nhap
+  -- �?ăng xuất thiết bị hiện tại của user đang đăng nhập
   PROCEDURE P_LOGOUT_CURRENT(p_username IN VARCHAR2) 
   AS
     v_sid    NUMBER;
     v_serial NUMBER;
   BEGIN
-    -- Lay dung SID va SERIAL# cua user hien tai dang dang nhap
+    -- Lấy đúng SID và SERIAL# của user hiện tại đang đăng nhập
     SELECT sid, serial#
       INTO v_sid, v_serial
       FROM v$session
      WHERE username = p_username
        AND audsid = USERENV('SESSIONID');
 
-    -- Kill chinh session do
+    -- Kill chính session đó
     EXECUTE IMMEDIATE 
       'ALTER SYSTEM KILL SESSION ''' || v_sid || ',' || v_serial || ''' IMMEDIATE';
 
   EXCEPTION
     WHEN NO_DATA_FOUND THEN
-      DBMS_OUTPUT.PUT_LINE('Khong tim thay session hien tai cua ' || p_username);
+      DBMS_OUTPUT.PUT_LINE('Không tìm thấy session hiện tại của ' || p_username);
     WHEN OTHERS THEN
-      DBMS_OUTPUT.PUT_LINE('Loi khi logout hien tai: ' || SQLERRM);
+      DBMS_OUTPUT.PUT_LINE('Lỗi khi logout hiện tại: ' || SQLERRM);
   END P_LOGOUT_CURRENT;
 
 
-  -- Dang xuat toan bo thiet bi
+  -- �?ăng xuất toàn bộ thiết bị
   PROCEDURE P_LOGOUT_ALL(p_username IN VARCHAR2)
   AS
   BEGIN
@@ -86,16 +103,16 @@ CREATE OR REPLACE PACKAGE BODY PKG_LOGOUT AS
           'ALTER SYSTEM KILL SESSION ''' || rec.sid || ',' || rec.serial# || ''' IMMEDIATE';
       EXCEPTION
         WHEN OTHERS THEN
-          DBMS_OUTPUT.PUT_LINE('Khong the kill session ' || rec.sid || ',' || rec.serial#);
+          DBMS_OUTPUT.PUT_LINE('Không thể kill session ' || rec.sid || ',' || rec.serial#);
       END;
     END LOOP;
   EXCEPTION
     WHEN OTHERS THEN
-      DBMS_OUTPUT.PUT_LINE('Loi logout toan bo thiet bi: ' || SQLERRM);
+      DBMS_OUTPUT.PUT_LINE('Lỗi logout toàn bộ thiết bị: ' || SQLERRM);
   END P_LOGOUT_ALL;
 
 
-  -- Dang xuat thiet bi cu the
+  -- �?ăng xuất thiết bị cụ thể
   PROCEDURE P_LOGOUT_BY_MACHINE(p_username IN VARCHAR2, p_machine IN VARCHAR2)
   AS
     v_count NUMBER := 0;
@@ -112,31 +129,109 @@ CREATE OR REPLACE PACKAGE BODY PKG_LOGOUT AS
         v_count := v_count + 1;
       EXCEPTION
         WHEN OTHERS THEN
-          DBMS_OUTPUT.PUT_LINE('Khong the kill session tren may ' || rec.machine);
+          DBMS_OUTPUT.PUT_LINE('Không thể kill session trên máy ' || rec.machine);
       END;
     END LOOP;
 
     IF v_count = 0 THEN
-      DBMS_OUTPUT.PUT_LINE('Khong tim thay session tren may ' || p_machine);
+      DBMS_OUTPUT.PUT_LINE('Không tìm thấy session trên máy ' || p_machine);
     END IF;
   EXCEPTION
     WHEN OTHERS THEN
-      DBMS_OUTPUT.PUT_LINE('Loi logout theo may: ' || SQLERRM);
+      DBMS_OUTPUT.PUT_LINE('Lỗi logout theo máy: ' || SQLERRM);
   END P_LOGOUT_BY_MACHINE;
 
 END PKG_LOGOUT;
-/
 
--- Cap quyen thuc thi package nay cho NAM_DOAN
-GRANT EXECUTE ON PKG_LOGOUT TO NAM_DOAN;
 
--- 6. CAP QUYEN GIAM SAT (AUDITING)
--- Gan quyen giam sat he thong cho NAM_DOAN
+
+
+
+SELECT username, account_status FROM DBA_USERS ORDER BY username;
+--===================================================================================================
+--gi�m s�t
+--g�n quy?n gi�m s�t cho nan_doan
 GRANT AUDIT SYSTEM TO NAM_DOAN;
 GRANT AUDIT ANY TO NAM_DOAN;
 
--- Cho phep xem tat ca log audit
+-- Cho ph�p xem t?t c? log audit
 GRANT SELECT ANY DICTIONARY TO NAM_DOAN;
 
--- Kiem tra user da tao thanh cong
-SELECT * FROM ALL_USERS WHERE USERNAME = 'NAM_DOAN';
+GRANT EXECUTE ON DBMS_FGA TO NAM_DOAN;
+GRANT SELECT ON DBA_FGA_AUDIT_TRAIL TO NAM_DOAN;
+
+--CHECK XEM C� POLICY CH?A
+SELECT
+    policy_name,
+    object_schema,
+    object_name,
+    policy_text,
+    enabled
+FROM dba_audit_policies
+WHERE object_schema = 'NAM_DOAN';
+--CHECK AI THAO TAC
+SELECT
+    db_user,
+    object_schema,
+    object_name,
+    sql_text,
+    timestamp
+FROM dba_fga_audit_trail
+WHERE object_schema = 'NAM_DOAN'
+ORDER BY timestamp DESC;
+--view xem
+CREATE OR REPLACE VIEW V_FGA_LOGS AS
+SELECT
+    DB_USER,
+    OBJECT_SCHEMA,
+    OBJECT_NAME,
+    SQL_TEXT,
+    TIMESTAMP
+FROM DBA_FGA_AUDIT_TRAIL
+WHERE OBJECT_SCHEMA = 'NAM_DOAN';
+
+
+SELECT * FROM DBA_AUDIT_TRAIL;
+SELECT * FROM V_FGA_LOGS;
+
+DROP USER "f";
+SELECT USERNAME FROM DBA_USERS;
+
+SHOW PARAMETER audit_trail;
+
+
+
+
+GRANT SELECT ON V_FGA_LOGS TO NAM_DOAN;
+GRANT SELECT ON DBA_FGA_AUDIT_TRAIL TO NAM_DOAN;
+
+
+
+
+DESC DBA_AUDIT_POLICIES;
+
+--===================================================================================================
+
+-- Ki?m tra user c� t?n t?i kh�ng
+SELECT username FROM dba_users 
+
+-- Ki?m tra v?i t�n vi?t th??ng
+SELECT username FROM dba_users WHERE LOWER(username) = LOWER('AXW');
+
+-- Ki?m tra trong b?ng USERS c?a NAM_DOAN
+SELECT USER_NAME FROM NAM_DOAN.USERS WHERE USER_NAME = 'AXW';
+
+-- Ki?m tra t?t c? user trong h? th?ng
+SELECT username FROM dba_users ORDER BY username;
+
+
+
+
+-- Ki?m tra quy?n hi?n t?i c?a user
+SELECT * FROM USER_SYS_PRIVS WHERE USERNAME = USER;
+
+-- Ki?m tra role
+SELECT * FROM USER_ROLE_PRIVS;
+
+-- N?u user c� role DBA, ?� c� ?? quy?n
+SELECT GRANTED_ROLE FROM USER_ROLE_PRIVS WHERE GRANTED_ROLE = 'DBA';

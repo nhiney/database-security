@@ -1,5 +1,3 @@
-
-
 -- =========================================================================
 -- 1. TAO ROLE VA CAP QUYEN CHO ROLE
 -- =========================================================================
@@ -49,7 +47,7 @@ CREATE TABLE ORDERS (
     SHIPPING_ADDRESS NVARCHAR2(255) NOT NULL,
     PAYMENT_METHOD   NVARCHAR2(50) NOT NULL,
     STATUS           NVARCHAR2(20) DEFAULT N'Chưa xử lý'
-                     CHECK (STATUS IN (N'Chưa xử lý', N'Đang xử lý', N'Đang giao', N'Hoàn tất', N'Hủy')),
+                     CHECK (STATUS IN (N'Chưa xử lý', N'�?ang xử lý', N'�?ang giao', N'Hoàn tất', N'Hủy')),
     CANCEL_REASON    NVARCHAR2(255),
     IS_SIGNED        NUMBER(1) DEFAULT 0,
     SIGNATURE_DATA   CLOB,
@@ -684,7 +682,31 @@ EXCEPTION
     WHEN OTHERS THEN
         RAISE_APPLICATION_ERROR(-20003, 'Khong the cap quyen: ' || SQLERRM);
 END;
-/
+
+-- PROCEDURE LAY DANH SACH POLICY
+CREATE OR REPLACE PROCEDURE P_GET_SECURITY_POLICIES (
+    p_cursor OUT SYS_REFCURSOR
+) 
+IS
+BEGIN
+    OPEN p_cursor FOR
+    SELECT 
+        PROFILE, 
+        RESOURCE_NAME, 
+        LIMIT
+    FROM DBA_PROFILES
+    WHERE PROFILE = 'DEFAULT' -- Thư�?ng chỉnh sửa trên profile mặc định
+    AND RESOURCE_NAME IN (
+        'FAILED_LOGIN_ATTEMPTS', 
+        'PASSWORD_LOCK_TIME',    
+        'PASSWORD_LIFE_TIME',    
+        'PASSWORD_GRACE_TIME',   
+        'SESSIONS_PER_USER',     
+        'IDLE_TIME'              
+    )
+    ORDER BY RESOURCE_NAME;
+END;
+
 
 -- Khoa tai khoan Oracle
 CREATE OR REPLACE PROCEDURE NAM_DOAN.P_LOCK_ORACLE_USER (
@@ -920,6 +942,7 @@ BEGIN
     END LOOP;
 END;
 /
+--==========================================================================
 
 -- =========================================================================
 -- 11. TINH NANG MO RONG - XAC THUC KHUON MAT & QR CODE
@@ -1064,10 +1087,10 @@ END;
 -- =========================================================================
 -- 12. TINH NANG GIAM SAT (AUDITING)
 -- =========================================================================
-
--- 12.1 Lay danh sach tat ca User dang hoat dong
-CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_SELECT_ALL_USERS (
-    v_out OUT SYS_REFCURSOR
+--gi�m s�t
+--thAO TAC LAY NGUOI DUNG
+CREATE OR REPLACE PROCEDURE sp_select_all_users(
+    v_out OUT SYS_REFCURSOR     -- <== t�n ph?i l� v_out
 )
 AS
 BEGIN
@@ -1075,62 +1098,159 @@ BEGIN
         SELECT username
         FROM dba_users
         WHERE account_status = 'OPEN'
-          AND username NOT IN ('SYS', 'SYSTEM', 'OUTLN', 'XDB', 'DBSNMP', 'LBACSYS');
+          AND username NOT IN ('SYS','SYSTEM','OUTLN','XDB','DBSNMP','LBACSYS');
 END;
 /
 
--- 12.2 Bat Audit cho User cu the
-CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_CREATE_AUDIT (
-    p_statement IN VARCHAR2,  -- Loai hoat dong: SELECT, INSERT, UPDATE, DELETE, etc.
-    p_username  IN VARCHAR2   -- Ten user can giam sat
-) 
-IS
-BEGIN
-    -- Thuc thi lenh AUDIT (Always use quotes for username)
-    EXECUTE IMMEDIATE 'AUDIT ' || p_statement || ' BY "' || p_username || '"';
-    
-    DBMS_OUTPUT.PUT_LINE('Audit created for "' || p_username || '"');
-    
-EXCEPTION
-    WHEN OTHERS THEN
-        RAISE_APPLICATION_ERROR(-20002, 
-            'Error creating audit for "' || p_username || '": ' || SQLERRM);
-END SP_CREATE_AUDIT;
-/
-
--- 12.3 Tat Audit cho User cu the
-CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_DROP_AUDIT (
-    p_statement IN VARCHAR2,  -- Loai hoat dong: SELECT, INSERT, UPDATE, DELETE, etc.
-    p_username  IN VARCHAR2   -- Ten user can bo giam sat
-) 
-IS
-BEGIN
-    -- Thuc thi lenh NOAUDIT (Always use quotes for username)
-    EXECUTE IMMEDIATE 'NOAUDIT ' || p_statement || ' BY "' || p_username || '"';
-    
-    DBMS_OUTPUT.PUT_LINE('Audit removed for "' || p_username || '"');
-    
-EXCEPTION
-    WHEN OTHERS THEN
-        RAISE_APPLICATION_ERROR(-20003, 
-            'Error removing audit for "' || p_username || '": ' || SQLERRM);
-END SP_DROP_AUDIT;
-/
-
--- 12.4 Kiem tra cac Audit hien tai cua User
-CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_LIST_USER_AUDITS (
-    p_username IN VARCHAR2,       -- Ten user can kiem tra
-    p_result   OUT SYS_REFCURSOR  -- Ket qua tra ve
+--THAO TAC LAY BANG
+CREATE OR REPLACE PROCEDURE SP_SELECT_ALL_TABLES (
+    p_out OUT SYS_REFCURSOR
 )
 AS
 BEGIN
-    -- Lay tat ca cac audit option da duoc cau hinh cho user
-    OPEN p_result FOR
-        SELECT *
-        FROM dba_obj_audit_opts
-        WHERE OWNER = UPPER(p_username);
+    OPEN p_out FOR
+        SELECT TABLE_NAME
+        FROM USER_TABLES
+        ORDER BY TABLE_NAME;
 END;
 /
+--kiem tra ai dang bi giam sat
+SELECT OWNER, OBJECT_NAME, SEL, INS, UPD, DEL
+FROM DBA_OBJ_AUDIT_OPTS
+WHERE OWNER = 'NAM_DOAN';
+
+
+
+
+
+
+--TAO GIAM SAT VOI HOAT DONG
+CREATE OR REPLACE PROCEDURE SP_CREATE_FGA_AUDIT (
+    p_username   IN VARCHAR2,
+    p_table_name IN VARCHAR2,
+    p_actions    IN VARCHAR2
+)
+AS
+    v_policy_name VARCHAR2(200);
+BEGIN
+    v_policy_name := 'FGA_' || p_username || '_' || p_table_name;
+
+    -- drop n?u ?� t?n t?i
+    BEGIN
+        DBMS_FGA.DROP_POLICY(
+            object_schema => 'NAM_DOAN',
+            object_name   => p_table_name,
+            policy_name   => v_policy_name
+        );
+    EXCEPTION
+        WHEN OTHERS THEN NULL;
+    END;
+
+    -- t?o l?i policy
+    DBMS_FGA.ADD_POLICY(
+        object_schema   => 'NAM_DOAN',
+        object_name     => p_table_name,
+        policy_name     => v_policy_name,
+        audit_condition => 
+            'SYS_CONTEXT(''USERENV'', ''SESSION_USER'') = ''' || p_username || '''',
+         audit_column      => NULL,             
+        audit_column_opts => DBMS_FGA.ANY_COLUMNS, 
+        statement_types => p_actions,
+        enable          => TRUE
+    );
+END;
+/
+SELECT
+  DB_USER,
+  OBJECT_SCHEMA,
+  OBJECT_NAME,
+  POLICY_NAME,
+  STATEMENT_TYPE,
+  SQL_TEXT,
+  TIMESTAMP
+FROM DBA_FGA_AUDIT_TRAIL
+WHERE OBJECT_SCHEMA = 'NAM_DOAN'
+ORDER BY TIMESTAMP DESC;
+
+SELECT
+    OBJECT_NAME,
+    POLICY_NAME,
+    ENABLED,
+    STATEMENT_TYPES
+FROM USER_AUDIT_POLICIES;
+
+
+
+
+--XOA GIAM SAT VOI HOAT DONG
+CREATE OR REPLACE PROCEDURE SP_DROP_FGA_AUDIT (
+    p_username   IN VARCHAR2,
+    p_table_name IN VARCHAR2
+)
+AS
+BEGIN
+    DBMS_FGA.DROP_POLICY(
+        object_schema => 'NAM_DOAN',
+        object_name   => p_table_name,
+        policy_name   => 'FGA_' || p_username || '_' || p_table_name
+    );
+END;
+/
+
+
+
+-- Xem t?t c? user b? gi�m s�t c�u l?nh n�o
+SELECT USER_NAME, AUDIT_OPTION, SUCCESS, FAILURE
+FROM DBA_STMT_AUDIT_OPTS
+ORDER BY USER_NAME, AUDIT_OPTION;
+
+SELECT * FROM DBA_AUDIT_POLICIES WHERE object_schema='NAM_DOAN';
+SHOW PARAMETER audit_trail;
+SELECT * FROM DBA_FGA_AUDIT_TRAIL;
+
+SELECT
+  DB_USER,
+  OBJECT_NAME,
+  STATEMENT_TYPE,
+  SQL_TEXT,
+  TIMESTAMP
+FROM DBA_FGA_AUDIT_TRAIL
+
+
+
+--lay user bi ghi log
+
+
+GRANT INSERT ON NAM_DOAN.PRODUCTS TO "4AdnN!j";
+GRANT update ON NAM_DOAN.PRODUCTS TO "4AdnN!j";
+GRANT delete ON NAM_DOAN.PRODUCTS TO "4AdnN!j";
+
+
+--lay log theo user
+CREATE OR REPLACE PROCEDURE SP_GET_AUDIT_LOGS_BY_USER (
+    p_user   IN  VARCHAR2,
+    p_cursor OUT SYS_REFCURSOR
+)
+AS
+BEGIN
+    OPEN p_cursor FOR
+        SELECT
+            DB_USER,
+            OBJECT_NAME,
+            SQL_TEXT,
+            TIMESTAMP
+        FROM V_FGA_LOGS
+        WHERE DB_USER = p_user
+        ORDER BY TIMESTAMP DESC;
+END;
+/
+
+SELECT * FROM NAM_DOAN.V_FGA_LOGS;
+
+
+SELECT DB_USER, OBJECT_NAME, SQL_TEXT, TIMESTAMP
+FROM DBA_FGA_AUDIT_TRAIL
+ORDER BY TIMESTAMP DESC;
 
 
 -- =========================================================================
