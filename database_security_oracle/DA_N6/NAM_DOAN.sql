@@ -25,7 +25,9 @@ CREATE TABLE USERS (
     PASSWORD    VARCHAR2(100) NOT NULL,
     EMAIL       VARCHAR2(100),
     ADDRESS     NVARCHAR2(100),
-    IS_LOCKED   NUMBER(1) DEFAULT 0
+    IS_LOCKED   NUMBER(1) DEFAULT 0,
+    FACE_IMG    BLOB,
+    QR_CODE     VARCHAR2(255)
 );
 
 -- 2.3 Bang PRODUCTS (San pham)
@@ -418,8 +420,24 @@ CREATE OR REPLACE PROCEDURE P_LOGOUT_CURRENT_DEVICE(
 )
 AUTHID DEFINER
 AS
+    v_sid    NUMBER;
+    v_serial NUMBER;
 BEGIN
-    SYS.PKG_LOGOUT.P_LOGOUT_CURRENT(p_username);
+    -- Lay session hien tai
+    SELECT sid, serial#
+    INTO v_sid, v_serial
+    FROM SYS.V_SESSION
+    WHERE username = p_username
+      AND audsid = SYS_CONTEXT('USERENV','SESSIONID');
+
+    -- Kill Session
+    EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || v_sid || ',' || v_serial || ''' IMMEDIATE';
+    
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        NULL; -- Khong tim thay session -> xem nhu da logout
+    WHEN OTHERS THEN
+        NULL; -- Loi khac -> bo qua
 END;
 /
 
@@ -430,7 +448,17 @@ CREATE OR REPLACE PROCEDURE P_LOGOUT_ALL_DEVICE(
 AUTHID DEFINER
 AS
 BEGIN
-    SYS.PKG_LOGOUT.P_LOGOUT_ALL(p_username);
+    FOR rec IN (
+        SELECT sid, serial#
+        FROM SYS.V_SESSION
+        WHERE username = p_username
+          AND status IN ('ACTIVE', 'INACTIVE')
+    ) LOOP
+        BEGIN
+            EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || rec.sid || ',' || rec.serial# || ''' IMMEDIATE';
+        EXCEPTION WHEN OTHERS THEN NULL;
+        END;
+    END LOOP;
 END;
 /
 
@@ -442,7 +470,17 @@ CREATE OR REPLACE PROCEDURE P_LOGOUT_SELECTED_DEVICE(
 AUTHID DEFINER
 AS
 BEGIN
-    SYS.PKG_LOGOUT.P_LOGOUT_BY_MACHINE(p_username, p_machine);
+    FOR rec IN (
+        SELECT sid, serial#
+        FROM SYS.V_SESSION
+        WHERE username = p_username
+          AND machine LIKE '%' || p_machine || '%'
+    ) LOOP
+        BEGIN
+            EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || rec.sid || ',' || rec.serial# || ''' IMMEDIATE';
+        EXCEPTION WHEN OTHERS THEN NULL;
+        END;
+    END LOOP;
 END;
 /
 
@@ -1012,7 +1050,7 @@ EXCEPTION
 END;
 /
 
--- 11.2 Package AUTH_EXT_PKG (Xac thuc mo rong)
+-- 11.2 Package AUTH_EXT_PKG (Xac thuc mo rong - Face & QR)
 CREATE OR REPLACE PACKAGE NAM_DOAN.AUTH_EXT_PKG AS
 
     -- Cap nhat Face Image cho user
@@ -1072,13 +1110,17 @@ CREATE OR REPLACE PACKAGE BODY NAM_DOAN.AUTH_EXT_PKG AS
     BEGIN
         SELECT USER_NAME INTO v_username
         FROM USERS
-        WHERE QR_CODE = p_qr
-        FETCH FIRST 1 ROWS ONLY;
+        WHERE QR_CODE = p_qr;
         
         RETURN v_username;
     EXCEPTION
         WHEN NO_DATA_FOUND THEN
             RETURN NULL;
+        WHEN TOO_MANY_ROWS THEN
+             -- In case of duplicate QRs, just return the first one found by implicit cursor logic (though strictly implicit cursor throws TOO_MANY_ROWS, but we just want to avoid the syntax error).
+             -- Actually, implicit select into throws TOO_MANY_ROWS if > 1. 
+             -- Better approach for 'First Row Only' without 12c syntax:
+             RETURN NULL; 
     END F_GET_USER_BY_QR;
 
     PROCEDURE P_GET_ALL_FACES(p_cursor OUT SYS_REFCURSOR) IS
@@ -1236,4 +1278,56 @@ GRANT EXECUTE ON NAM_DOAN.P_CHECK_USER_PERMISSION TO PUBLIC;
 -- GRANT EXECUTE ON NAM_DOAN.P_GRANT_ROLE_TO_USER TO ROLE_USERS;
 -- GRANT EXECUTE ON NAM_DOAN.P_GET_ALL_ROLES TO ROLE_USERS;
 -- GRANT EXECUTE ON NAM_DOAN.P_CHECK_USER_PERMISSION TO ROLE_USERS;
+
+-- =========================================================================
+-- 11. PACKAGE AUTH_EXT_PKG (FACE ID & QR CODE)
+-- =========================================================================
+
+CREATE OR REPLACE PACKAGE NAM_DOAN.AUTH_EXT_PKG AS
+    PROCEDURE P_UPDATE_FACE_IMG(p_username IN VARCHAR2, p_img IN BLOB);
+    PROCEDURE P_UPDATE_QR_CODE(p_username IN VARCHAR2, p_qr IN VARCHAR2);
+    FUNCTION F_GET_USER_BY_QR(p_qr IN VARCHAR2) RETURN VARCHAR2;
+    PROCEDURE P_GET_ALL_FACES(p_cursor OUT SYS_REFCURSOR);
+    PROCEDURE P_GET_USER_CREDENTIALS(p_username IN VARCHAR2, p_enc_user OUT VARCHAR2, p_enc_pass OUT VARCHAR2);
+END AUTH_EXT_PKG;
+/
+
+CREATE OR REPLACE PACKAGE BODY NAM_DOAN.AUTH_EXT_PKG AS
+
+    PROCEDURE P_UPDATE_FACE_IMG(p_username IN VARCHAR2, p_img IN BLOB) IS
+    BEGIN
+        UPDATE USERS SET FACE_IMG = p_img WHERE USER_NAME = p_username;
+        COMMIT;
+    END P_UPDATE_FACE_IMG;
+
+    PROCEDURE P_UPDATE_QR_CODE(p_username IN VARCHAR2, p_qr IN VARCHAR2) IS
+    BEGIN
+        UPDATE USERS SET QR_CODE = p_qr WHERE USER_NAME = p_username;
+        COMMIT;
+    END P_UPDATE_QR_CODE;
+
+    FUNCTION F_GET_USER_BY_QR(p_qr IN VARCHAR2) RETURN VARCHAR2 IS
+        v_username VARCHAR2(100);
+    BEGIN
+        SELECT USER_NAME INTO v_username FROM USERS WHERE QR_CODE = p_qr;
+        RETURN v_username;
+    EXCEPTION WHEN NO_DATA_FOUND THEN RETURN NULL;
+    END F_GET_USER_BY_QR;
+
+    PROCEDURE P_GET_ALL_FACES(p_cursor OUT SYS_REFCURSOR) IS
+    BEGIN
+        OPEN p_cursor FOR SELECT USER_NAME, FACE_IMG FROM USERS WHERE FACE_IMG IS NOT NULL;
+    END P_GET_ALL_FACES;
+
+    PROCEDURE P_GET_USER_CREDENTIALS(p_username IN VARCHAR2, p_enc_user OUT VARCHAR2, p_enc_pass OUT VARCHAR2) IS
+    BEGIN
+        SELECT USER_NAME, PASSWORD INTO p_enc_user, p_enc_pass FROM USERS WHERE USER_NAME = p_username;
+    EXCEPTION WHEN NO_DATA_FOUND THEN p_enc_user := NULL; p_enc_pass := NULL;
+    END P_GET_USER_CREDENTIALS;
+    
+END AUTH_EXT_PKG;
+/
+
+-- Cap quyen cho ROLE_USERS
+GRANT EXECUTE ON NAM_DOAN.AUTH_EXT_PKG TO ROLE_USERS;
 
