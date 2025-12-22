@@ -1,0 +1,1130 @@
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\Oracle.DataAccess.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\USER\Desktop\LTW\DA_N6\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.views.Main.resources
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.csproj.CopyComplete
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\HP\Downloads\DA_N6\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.views.Main.resources
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.csproj.CopyComplete
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\HP\Downloads\DOAN_NHOM6_TUAN06\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.views.Main.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_TUAN07\DOAN_NHOM6_TUAN07\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Oracle.DataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.views.Main.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_TUAN08\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.views.Main.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6_TUAN08\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Main.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\bin\Debug\System.ValueTuple.xml
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\M\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.ValueTuple.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Login.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Main.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Register.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DoAn\Bản hoàn thiện\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Oracle.DataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.xml
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Main.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.dll
+C:\Users\USER\Desktop\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Main.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6 (1)\DOAN_NHOM6\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.exe
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Login.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Main.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Register.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.exe
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\DA_N6.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\zxing.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.ValueTuple.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Emgu.CV.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.barcodes.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.commons.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.forms.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.io.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.kernel.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.layout.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfa.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.pdfua.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.sign.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.styledxmlparser.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itext.svg.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\itextsharp.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\Newtonsoft.Json.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Buffers.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Drawing.Common.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Formats.Asn1.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.IO.Pipelines.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Memory.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.AccessControl.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Text.Json.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\zxing.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\bin\Debug\zxing.presentation.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Login.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Main.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Register.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe.config
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.ValueTuple.dll
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.pdb
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.xml
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+D:\TaiLieuDaiHoc\Nam3\Nam3-HKI\BM_CSDL\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.Audit.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.xml
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Main.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.Audit.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\Rinfu\Downloads\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Oracle.DataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Main.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.Audit.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\OpenCvSharpExtern.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x86\opencv_videoio_ffmpeg4110.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\OpenCvSharpExtern.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\dll\x64\opencv_videoio_ffmpeg4110_64.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\DA_N6.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Oracle.DataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.ValueTuple.dll
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Emgu.CV.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.barcodes.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.commons.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.forms.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.io.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.kernel.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.layout.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfa.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.pdfua.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.sign.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.styledxmlparser.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itext.svg.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\itextsharp.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Buffers.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.pdb
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Drawing.Common.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Formats.Asn1.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.IO.Pipelines.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Memory.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.AccessControl.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Text.Json.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\bin\Debug\zxing.presentation.xml
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe.config
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Login.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Properties.Resources.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.VerifyForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.CartForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.devices.DevicesForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Main.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Register.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.views.orders.OrdersForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.Audit.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.Views.Users.UsersForm.resources
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.csproj.Up2Date
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.exe
+C:\Users\USER\Desktop\DOAN_NHOM6_Tuan12_13\DA_N6\obj\Debug\DA_N6.pdb
