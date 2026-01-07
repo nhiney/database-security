@@ -1310,6 +1310,85 @@ BEGIN
 END;
 /
 
+-- 12.5 Lay danh sach tat ca cac bang (cho Audit)
+CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_SELECT_ALL_TABLES (
+    p_out OUT SYS_REFCURSOR
+)
+IS
+BEGIN
+    OPEN p_out FOR
+         SELECT table_name 
+         FROM all_tables 
+         WHERE owner = 'NAM_DOAN' 
+         ORDER BY table_name;
+END;
+/
+
+-- 12.6 Create FGA Audit
+CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_CREATE_FGA_AUDIT (
+    p_username   IN VARCHAR2,
+    p_table_name IN VARCHAR2,
+    p_actions    IN VARCHAR2
+)
+IS
+    v_policy_name VARCHAR2(100);
+BEGIN
+    v_policy_name := 'FGA_' || p_table_name || '_' || p_username;
+    
+    -- Xoa policy cu neu ton tai (tranh loi)
+    BEGIN
+        DBMS_FGA.DROP_POLICY(
+            object_schema => 'NAM_DOAN', 
+            object_name   => p_table_name, 
+            policy_name   => v_policy_name
+        );
+    EXCEPTION WHEN OTHERS THEN NULL;
+    END;
+
+    DBMS_FGA.ADD_POLICY(
+        object_schema   => 'NAM_DOAN',
+        object_name     => p_table_name,
+        policy_name     => v_policy_name,
+        audit_condition => 'SYS_CONTEXT(''USERENV'', ''SESSION_USER'') = ''' || p_username || '''',
+        statement_types => p_actions
+    );
+END;
+/
+
+-- 12.7 Drop FGA Audit
+CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_DROP_FGA_AUDIT (
+    p_username   IN VARCHAR2,
+    p_table_name IN VARCHAR2
+)
+IS
+    v_policy_name VARCHAR2(100);
+BEGIN
+    v_policy_name := 'FGA_' || p_table_name || '_' || p_username;
+    
+    DBMS_FGA.DROP_POLICY(
+        object_schema => 'NAM_DOAN',
+        object_name   => p_table_name,
+        policy_name   => v_policy_name
+    );
+EXCEPTION WHEN OTHERS THEN NULL;
+END;
+/
+
+-- 12.8 Get Audit Logs
+CREATE OR REPLACE PROCEDURE NAM_DOAN.SP_GET_AUDIT_LOGS_BY_USER (
+    p_username IN VARCHAR2,
+    p_cursor   OUT SYS_REFCURSOR
+)
+IS
+BEGIN
+    OPEN p_cursor FOR
+        SELECT timestamp, db_user, object_name, sql_text, statement_type, policy_name 
+        FROM dba_fga_audit_trail
+        WHERE db_user = p_username
+        ORDER BY timestamp DESC;
+END;
+/
+
 
 -- =========================================================================
 -- 13. CAP QUYEN THUC THI CHO CAC PROCEDURES PHAN QUYEN
@@ -1388,4 +1467,12 @@ END AUTH_EXT_PKG;
 
 -- Cap quyen cho ROLE_USERS
 GRANT EXECUTE ON NAM_DOAN.AUTH_EXT_PKG TO ROLE_USERS;
+
+-- Cap quyen cho cac procedure Audit moi
+GRANT EXECUTE ON NAM_DOAN.SP_SELECT_ALL_USERS TO PUBLIC;
+GRANT EXECUTE ON NAM_DOAN.SP_SELECT_ALL_TABLES TO PUBLIC;
+GRANT EXECUTE ON NAM_DOAN.SP_CREATE_FGA_AUDIT TO PUBLIC;
+GRANT EXECUTE ON NAM_DOAN.SP_DROP_FGA_AUDIT TO PUBLIC;
+GRANT EXECUTE ON NAM_DOAN.SP_GET_AUDIT_LOGS_BY_USER TO PUBLIC;
+
 

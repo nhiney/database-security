@@ -47,7 +47,7 @@ namespace DA_N6.Views.Users
         {
             try
             {
-                using (OracleCommand command = new OracleCommand("sp_select_all_users", conn))
+                using (OracleCommand command = new OracleCommand("NAM_DOAN.SP_SELECT_ALL_USERS", conn))
                 {
                     command.CommandType = CommandType.StoredProcedure;
 
@@ -241,7 +241,7 @@ namespace DA_N6.Views.Users
                     string tableName = item.Key;
                     string actions = string.Join(",", item.Value); // SELECT,INSERT,...
 
-                    using (OracleCommand cmd = new OracleCommand("SP_CREATE_FGA_AUDIT", conn))
+                    using (OracleCommand cmd = new OracleCommand("NAM_DOAN.SP_CREATE_FGA_AUDIT", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.Add("p_username", OracleDbType.Varchar2).Value = username;
@@ -285,7 +285,7 @@ namespace DA_N6.Views.Users
             {
                 foreach (string tableName in clbTable.CheckedItems)
                 {
-                    using (OracleCommand cmd = new OracleCommand("SP_DROP_FGA_AUDIT", conn))
+                    using (OracleCommand cmd = new OracleCommand("NAM_DOAN.SP_DROP_FGA_AUDIT", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.Add("p_username", OracleDbType.Varchar2).Value = username;
@@ -336,7 +336,7 @@ namespace DA_N6.Views.Users
             {
                 clbTable.Items.Clear();
 
-                using (OracleCommand cmd = new OracleCommand("sp_select_all_tables", conn))
+                using (OracleCommand cmd = new OracleCommand("NAM_DOAN.SP_SELECT_ALL_TABLES", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
@@ -410,7 +410,7 @@ namespace DA_N6.Views.Users
            
             try
             {
-                using (OracleCommand cmd = new OracleCommand("SP_GET_AUDIT_LOGS_BY_USER", conn))
+                using (OracleCommand cmd = new OracleCommand("NAM_DOAN.SP_GET_AUDIT_LOGS_BY_USER", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 

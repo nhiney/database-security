@@ -17,6 +17,7 @@ namespace DA_N6
         private Button btnAuthorization;
         private Label lblUsername;
         private Button btnPolicy;
+        private Button btnAudit;
 
 
         protected override void Dispose(bool disposing)
@@ -39,6 +40,7 @@ namespace DA_N6
             this.btnLogout = new System.Windows.Forms.Button();
             this.panelContent = new System.Windows.Forms.Panel();
             this.btnPolicy = new System.Windows.Forms.Button();
+            this.btnAudit = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +55,7 @@ namespace DA_N6
             this.panelMenu.Controls.Add(this.btnAuthorization);
             this.panelMenu.Controls.Add(this.btnUsers);
             this.panelMenu.Controls.Add(this.btnPolicy);
+            this.panelMenu.Controls.Add(this.btnAudit);
             this.panelMenu.Controls.Add(this.btnLogout);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -165,6 +168,16 @@ namespace DA_N6
             this.panelContent.Size = new System.Drawing.Size(880, 650);
             this.panelContent.TabIndex = 0;
             // 
+            // btnAudit
+            // 
+            this.btnAudit.Location = new System.Drawing.Point(0, 429);
+            this.btnAudit.Name = "btnAudit";
+            this.btnAudit.Size = new System.Drawing.Size(220, 53);
+            this.btnAudit.TabIndex = 8;
+            this.btnAudit.Text = "Audit";
+            this.btnAudit.UseVisualStyleBackColor = true;
+            this.btnAudit.Click += new System.EventHandler(this.btnAudit_Click);
+            // 
             // Main
             // 
             this.ClientSize = new System.Drawing.Size(1100, 650);
@@ -177,5 +190,6 @@ namespace DA_N6
             this.ResumeLayout(false);
 
         }
+
     }
 }

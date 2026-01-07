@@ -219,6 +219,22 @@ namespace DA_N6
             OpenChildForm(new DA_N6.views.SecurityPolicyForm());
         }
 
+        private void btnAudit_Click(object sender, EventArgs e)
+        {
+            // 1. Kiểm tra quyền Admin
+            if (!_isSysUser)
+            {
+                MessageBox.Show("Bạn không có quyền truy cập chức năng này.\nChỉ quản trị viên (SYS) mới được phép.",
+                                "Cảnh báo bảo mật",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 2. Mở form Audit
+            OpenChildForm(new DA_N6.Views.Users.Audit(_isSysUser));
+        }
+
         // Hàm hỗ trợ mở form con 
         private void OpenChildForm(Form childForm)
         {
@@ -232,5 +248,8 @@ namespace DA_N6
             this.panelContent.Tag = childForm;
             childForm.Show();
         }
+        
+
+
     }
 }
