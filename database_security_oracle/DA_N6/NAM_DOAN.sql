@@ -5,7 +5,8 @@
 -- =========================================================================
 CREATE ROLE ROLE_USERS;
 GRANT CREATE SESSION TO ROLE_USERS;
-GRANT SELECT ON SYS.V_SESSION TO ROLE_USERS;
+-- Role users still needs to see session info for force logout check
+GRANT SELECT ON SYS.V_$SESSION TO ROLE_USERS;
 
 -- =========================================================================
 -- 2. TAO BANG (TABLES)
@@ -314,7 +315,7 @@ AS
 BEGIN
     -- Kiem tra xem cap SID va SERIAL# nay con ton tai khong
     SELECT COUNT(*) INTO v_count
-    FROM SYS.V_SESSION
+    FROM SYS.V_$SESSION
     WHERE SID = TO_NUMBER(p_sid)
       AND SERIAL# = TO_NUMBER(p_serial);
 
@@ -332,8 +333,8 @@ AS
     v_sid NUMBER;
 BEGIN
     SELECT sid INTO v_sid
-    FROM SYS.V_SESSION
-    WHERE username = p_username
+    FROM SYS.V_$SESSION
+    WHERE username = UPPER(p_username)
       AND audsid = USERENV('SESSIONID');
     RETURN v_sid;
 EXCEPTION
@@ -348,8 +349,8 @@ AS
     v_serial NUMBER;
 BEGIN
     SELECT serial# INTO v_serial
-    FROM SYS.V_SESSION
-    WHERE username = p_username
+    FROM SYS.V_$SESSION
+    WHERE username = UPPER(p_username)
       AND audsid = USERENV('SESSIONID');
     RETURN v_serial;
 EXCEPTION
@@ -378,7 +379,7 @@ END;
 GRANT EXECUTE ON NAM_DOAN.F_CHECK_IS_LOCKED TO ROLE_USERS;
 GRANT EXECUTE ON NAM_DOAN.F_IS_SESSION_ACTIVE TO ROLE_USERS;
 GRANT EXECUTE ON NAM_DOAN.F_GET_SESSION_SID TO ROLE_USERS;
-GRANT EXECUTE ON NAM_DOAN,F_GET_SESSION_SERIAL TO ROLE_USERS;
+GRANT EXECUTE ON NAM_DOAN.F_GET_SESSION_SERIAL TO ROLE_USERS;
 GRANT EXECUTE ON NAM_DOAN.F_GET_USER_ID_BY_NAME TO ROLE_USERS;
 
 
@@ -387,62 +388,62 @@ GRANT EXECUTE ON NAM_DOAN.F_GET_USER_ID_BY_NAME TO ROLE_USERS;
 -- =========================================================================
 
 -- Lay thong tin session hien tai
-CREATE OR REPLACE PROCEDURE P_GET_CURRENT_SESSION_INFO(p_rc OUT SYS_REFCURSOR)
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_GET_CURRENT_SESSION_INFO(p_rc OUT SYS_REFCURSOR)
+AUTHID DEFINER
 AS
+    v_sql VARCHAR2(1000);
 BEGIN
-    OPEN p_rc FOR
-        SELECT sid, serial#
-        FROM SYS.V_SESSION
-        WHERE audsid = USERENV('SESSIONID');
+    v_sql := 'SELECT sid, serial# FROM SYS.V_$SESSION WHERE audsid = USERENV(''SESSIONID'')';
+    OPEN p_rc FOR v_sql;
 END;
 /
 
 -- Hien thi danh sach thiet bi dang dang nhap cua user
-CREATE OR REPLACE PROCEDURE P_LIST_USER_DEVICES(
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_LIST_USER_DEVICES(
     p_rc OUT SYS_REFCURSOR
 )
+AUTHID DEFINER
 AS
+    v_sql VARCHAR2(1000);
 BEGIN
-    OPEN p_rc FOR
-        SELECT MACHINE AS DEVICE_NAME,
-               PROGRAM AS APP_NAME,
-               LOGON_TIME,
-               STATUS
-        FROM SYS.V_SESSION
-        WHERE USERNAME = SYS_CONTEXT('USERENV', 'SESSION_USER')
-        ORDER BY LOGON_TIME DESC;
+    v_sql := 'SELECT MACHINE AS DEVICE_NAME, PROGRAM AS APP_NAME, LOGON_TIME, STATUS ' ||
+             'FROM SYS.V_$SESSION WHERE USERNAME = SYS_CONTEXT(''USERENV'', ''SESSION_USER'') ' ||
+             'ORDER BY LOGON_TIME DESC';
+    OPEN p_rc FOR v_sql;
 END;
 /
 
 -- Logout thiet bi hien tai
-CREATE OR REPLACE PROCEDURE P_LOGOUT_CURRENT_DEVICE(
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_LOGOUT_CURRENT_DEVICE(
     p_username IN VARCHAR2
 )
 AUTHID DEFINER
 AS
     v_sid    NUMBER;
     v_serial NUMBER;
+    v_sql    VARCHAR2(1000);
 BEGIN
-    -- Lay session hien tai
-    SELECT sid, serial#
-    INTO v_sid, v_serial
-    FROM SYS.V_SESSION
-    WHERE username = p_username
-      AND audsid = SYS_CONTEXT('USERENV','SESSIONID');
+    -- Lay session hien tai (Dung Dynamic SQL de bypass compile-time privilege check)
+    v_sql := 'SELECT sid, serial# FROM SYS.V_$SESSION WHERE username = UPPER(:1) AND audsid = USERENV(''SESSIONID'')';
+    
+    BEGIN
+        EXECUTE IMMEDIATE v_sql INTO v_sid, v_serial USING p_username;
+    EXCEPTION 
+        WHEN NO_DATA_FOUND THEN RETURN;
+        WHEN OTHERS THEN RETURN;
+    END;
 
     -- Kill Session
     EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || v_sid || ',' || v_serial || ''' IMMEDIATE';
     
 EXCEPTION
-    WHEN NO_DATA_FOUND THEN
-        NULL; -- Khong tim thay session -> xem nhu da logout
     WHEN OTHERS THEN
-        NULL; -- Loi khac -> bo qua
+        NULL;
 END;
 /
 
 -- Logout tat ca thiet bi
-CREATE OR REPLACE PROCEDURE P_LOGOUT_ALL_DEVICE(
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_LOGOUT_ALL_DEVICE(
     p_username IN VARCHAR2
 )
 AUTHID DEFINER
@@ -450,8 +451,8 @@ AS
 BEGIN
     FOR rec IN (
         SELECT sid, serial#
-        FROM SYS.V_SESSION
-        WHERE username = p_username
+        FROM SYS.V_$SESSION
+        WHERE username = UPPER(p_username)
           AND status IN ('ACTIVE', 'INACTIVE')
     ) LOOP
         BEGIN
@@ -463,7 +464,7 @@ END;
 /
 
 -- Logout thiet bi duoc chon
-CREATE OR REPLACE PROCEDURE P_LOGOUT_SELECTED_DEVICE(
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_LOGOUT_SELECTED_DEVICE(
     p_username IN VARCHAR2,
     p_machine  IN VARCHAR2
 )
@@ -472,8 +473,8 @@ AS
 BEGIN
     FOR rec IN (
         SELECT sid, serial#
-        FROM SYS.V_SESSION
-        WHERE username = p_username
+        FROM SYS.V_$SESSION
+        WHERE username = UPPER(p_username)
           AND machine LIKE '%' || p_machine || '%'
     ) LOOP
         BEGIN
