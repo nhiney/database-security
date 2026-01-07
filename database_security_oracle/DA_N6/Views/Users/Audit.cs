@@ -11,6 +11,8 @@ using DA_N6.Database;
 using DA_N6.Repositories;
 using DA_N6.Utils;
 using Oracle.ManagedDataAccess.Client;
+using ClosedXML.Excel;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace DA_N6.Views.Users
 {
@@ -18,6 +20,12 @@ namespace DA_N6.Views.Users
     {
         private OracleConnection conn;
         private bool isSysUser;
+        private bool isLoadingUser = false; //BIẾN CỜ ĐỂ LOAD USER
+
+        // Lưu cấu hình audit tạm thời: BẢNG -> DANH SÁCH QUYỀN
+        private Dictionary<string, List<string>> objectAuditBuffer
+            = new Dictionary<string, List<string>>();
+
 
         public Audit(bool isSysUser)
         {
@@ -27,22 +35,14 @@ namespace DA_N6.Views.Users
             CenterToScreen();
             conn = DataBase.Get_Connect();
 
-            SetupEventHandlers();
+           
+            //LOAD BẢNG
+            LoadTablesFromSP();
+
             load_Cbo_user(conn);
         }
-        private void SetupEventHandlers()
-        {
-            // Sự kiện khi chọn user
-            cbb_LIST_USER.SelectedIndexChanged += cbb_LIST_USER_SelectedIndexChanged;
-
-            // Nút Áp dụng
-            btnAD.Click += btnAD_Click;
-
-            // Nút Xóa
-            btnX.Click += btnX_Click;
-
-           
-        }
+       
+        
         private void load_Cbo_user(OracleConnection conn)
         {
             try
@@ -101,8 +101,13 @@ namespace DA_N6.Views.Users
                         }
                     }
 
+                    isLoadingUser = true;
+
                     if (cbb_LIST_USER.Items.Count > 0)
                         cbb_LIST_USER.SelectedIndex = 0;
+
+                    isLoadingUser = false;
+
                 }
             }
             catch (OracleException ex)
@@ -123,9 +128,13 @@ namespace DA_N6.Views.Users
 
         private void cbb_LIST_USER_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(cbb_LIST_USER.SelectedItem != null)
+            if (isLoadingUser) return;
+            if (cbb_LIST_USER.SelectedItem != null)
             {
+                var selectedUser = (dynamic)cbb_LIST_USER.SelectedItem;
+                string username = selectedUser.EncryptedName;
                 LoadUserAuditStatus();
+                LoadAuditLogsByUser(username);
                 EnableButtons(true);
             }
             else
@@ -141,26 +150,18 @@ namespace DA_N6.Views.Users
             // Giả sử bạn có các CheckBox với tên:
             // chk_CREATE_TABLE, chk_DELETE_TABLE, chk_INSERT_TABLE, etc.
 
-            cbCT.Checked = false;
             cbDT.Checked = false;
             cbIT.Checked = false;
             cbST.Checked = false;
             cbUT.Checked = false;
-            cbDropAT.Checked = false;
-            cbCAT.Checked = false;
-            cbDAT.Checked = false;
-            cbIAT.Checked = false;
-            cbSAT.Checked = false;
-            cbUAT.Checked = false;
+           
         }
         private void SetCheckboxByOption(string option, bool isChecked)
         {
             // Ánh xạ option sang CheckBox tương ứng
             switch (option)
             {
-                case "CREATE TABLE":
-                    cbCT.Checked = isChecked;        // CREATE TABLE
-                    break;
+
                 case "DELETE TABLE":
                     cbDT.Checked = isChecked;        // DELETE TABLE
                     break;
@@ -173,24 +174,7 @@ namespace DA_N6.Views.Users
                 case "UPDATE TABLE":
                     cbUT.Checked = isChecked;        // UPDATE TABLE
                     break;
-                case "DROP ANY TABLE":
-                    cbDropAT.Checked = isChecked;    // DROP ANY TABLE
-                    break;
-                case "CREATE ANY TABLE":
-                    cbCAT.Checked = isChecked;       // CREATE ANY TABLE
-                    break;
-                case "DELETE ANY TABLE":
-                    cbDAT.Checked = isChecked;       // DELETE ANY TABLE
-                    break;
-                case "INSERT ANY TABLE":
-                    cbIAT.Checked = isChecked;       // INSERT ANY TABLE
-                    break;
-                case "SELECT ANY TABLE":
-                    cbSAT.Checked = isChecked;       // SELECT ANY TABLE
-                    break;
-                case "UPDATE ANY TABLE":
-                    cbUAT.Checked = isChecked;       // UPDATE ANY TABLE
-                    break;
+               
             }
         }
 
@@ -232,192 +216,97 @@ namespace DA_N6.Views.Users
             }
         }
 
-        private List<string> GetSelectedOptions()
-        {
-            List<string> selected = new List<string>();
 
-            // Lấy các option đang được check theo tên viết tắt
-            if (cbCT.Checked) selected.Add("CREATE TABLE");          // CREATE TABLE
-            if (cbDT.Checked) selected.Add("DELETE TABLE");          // DELETE TABLE
-            if (cbIT.Checked) selected.Add("INSERT TABLE");          // INSERT TABLE
-            if (cbST.Checked) selected.Add("SELECT TABLE");          // SELECT TABLE
-            if (cbUT.Checked) selected.Add("UPDATE TABLE");          // UPDATE TABLE
-            if (cbDropAT.Checked) selected.Add("DROP ANY TABLE");    // DROP ANY TABLE
-            if (cbCAT.Checked) selected.Add("CREATE ANY TABLE");     // CREATE ANY TABLE
-            if (cbDAT.Checked) selected.Add("DELETE ANY TABLE");     // DELETE ANY TABLE
-            if (cbIAT.Checked) selected.Add("INSERT ANY TABLE");     // INSERT ANY TABLE
-            if (cbSAT.Checked) selected.Add("SELECT ANY TABLE");     // SELECT ANY TABLE
-            if (cbUAT.Checked) selected.Add("UPDATE ANY TABLE");     // UPDATE ANY TABLE
-
-            return selected;
-        }
         private void btnAD_Click(object sender, EventArgs e)
         {
-            if (cbb_LIST_USER.SelectedItem == null) return;
+            if (cbb_LIST_USER.SelectedItem == null)
+            {
+                MessageBox.Show("Vui lòng chọn user");
+                return;
+            }
 
-            // Lấy đối tượng user đã lưu
+            if (objectAuditBuffer.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn bảng cần giám sát");
+                return;
+            }
+
             var selectedUser = (dynamic)cbb_LIST_USER.SelectedItem;
-            string encryptedUsername = selectedUser.EncryptedName; // Tên mã hóa để gửi xuống DB
-            string displayName = selectedUser.DisplayName; // Tên hiển thị
-
-
-            string username = selectedUser.EncryptedName;  // DÙNG TÊN MÃ HÓA
-            List<string> selectedOptions = GetSelectedOptions();
-
-            if (selectedOptions.Count == 0)
-            {
-                MessageBox.Show("Vui lòng chọn ít nhất một hoạt động để giám sát!");
-                return;
-            }
-
-            // Kiểm tra quyền
-            if (!isSysUser)
-            {
-                MessageBox.Show("Chỉ user có quyền ADMIN/SYS mới có thể thiết lập giám sát!");
-                return;
-            }
+            string username = selectedUser.EncryptedName; // USER BỊ GIÁM SÁT
 
             try
             {
-                int successCount = 0;
-                List<string> failedOptions = new List<string>();
-
-                foreach (string option in selectedOptions)
+                foreach (var item in objectAuditBuffer)
                 {
-                    try
+                    string tableName = item.Key;
+                    string actions = string.Join(",", item.Value); // SELECT,INSERT,...
+
+                    using (OracleCommand cmd = new OracleCommand("SP_CREATE_FGA_AUDIT", conn))
                     {
-                        // GỌI STORED PROCEDURE ORACLE: pro_create_audit
-                        using (OracleCommand cmd = new OracleCommand("sp_create_audit", conn))
-                        {
-                            cmd.CommandType = CommandType.StoredProcedure;
-
-                            // Thêm parameter 1: p_statement
-                            OracleParameter p1 = new OracleParameter("p_statement", OracleDbType.Varchar2);
-                            p1.Value = option;
-                            cmd.Parameters.Add(p1);
-
-                            // Thêm parameter 2: p_username
-                            OracleParameter p2 = new OracleParameter("p_username", OracleDbType.Varchar2);
-                            p2.Value = username;
-                            cmd.Parameters.Add(p2);
-
-                            // Thực thi stored procedure
-                            cmd.ExecuteNonQuery();
-                            successCount++;
-
-                            Console.WriteLine($"Đã gọi pro_create_audit('{option}', '{username}')");
-                        }
-                    }
-                    catch (OracleException oraEx)
-                    {
-                        // Log lỗi Oracle
-                        string errorMsg = $"Lỗi Oracle {oraEx.Number}: {oraEx.Message}";
-                        failedOptions.Add($"{option} - {errorMsg}");
-                        Console.WriteLine(errorMsg);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("p_username", OracleDbType.Varchar2).Value = username;
+                        cmd.Parameters.Add("p_table_name", OracleDbType.Varchar2).Value = tableName;
+                        cmd.Parameters.Add("p_actions", OracleDbType.Varchar2).Value = actions;
+                        cmd.ExecuteNonQuery();
                     }
                 }
 
-                // Hiển thị kết quả
-                ShowResultMessage("Áp dụng", username, selectedOptions.Count, successCount, failedOptions);
-
-                // Refresh trạng thái audit
-                LoadUserAuditStatus();
+                MessageBox.Show("Đã áp dụng giám sát thành công (FGA)",
+                                "Thành công",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi khi áp dụng audit: {ex.Message}", "Lỗi",
-                               MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lỗi khi áp dụng giám sát: " + ex.Message);
             }
-
         }
+
+
 
         private void btnX_Click(object sender, EventArgs e)
         {
-            if (cbb_LIST_USER.SelectedItem == null) return;
+            if (cbb_LIST_USER.SelectedItem == null)
+            {
+                MessageBox.Show("Vui lòng chọn user");
+                return;
+            }
 
-            // Lấy đối tượng user đã lưu
             var selectedUser = (dynamic)cbb_LIST_USER.SelectedItem;
-            string encryptedUsername = selectedUser.EncryptedName; // Tên mã hóa để gửi xuống DB
-            string displayName = selectedUser.DisplayName; // Tên hiển thị
+            string username = selectedUser.EncryptedName;
 
-            string username = selectedUser.EncryptedName;  // DÙNG TÊN MÃ HÓA
-            List<string> selectedOptions = GetSelectedOptions();
-
-            if (selectedOptions.Count == 0)
+            if (clbTable.CheckedItems.Count == 0)
             {
-                MessageBox.Show("Vui lòng chọn ít nhất một hoạt động để xóa giám sát!");
+                MessageBox.Show("Vui lòng chọn bảng cần xóa giám sát");
                 return;
             }
-
-            // Kiểm tra quyền
-            if (!isSysUser)
-            {
-                MessageBox.Show("Chỉ user có quyền ADMIN/SYS mới có thể xóa giám sát!");
-                return;
-            }
-
-            DialogResult confirm = MessageBox.Show(
-                $"Bạn có chắc chắn muốn xóa giám sát {selectedOptions.Count} hoạt động cho user {username}?",
-                "Xác nhận xóa",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Question);
-
-            if (confirm != DialogResult.Yes) return;
 
             try
             {
-                int successCount = 0;
-                List<string> failedOptions = new List<string>();
-
-                foreach (string option in selectedOptions)
+                foreach (string tableName in clbTable.CheckedItems)
                 {
-                    try
+                    using (OracleCommand cmd = new OracleCommand("SP_DROP_FGA_AUDIT", conn))
                     {
-                        // GỌI STORED PROCEDURE ORACLE: pro_drop_audit
-                        using (OracleCommand cmd = new OracleCommand("sp_drop_audit", conn))
-                        {
-                            cmd.CommandType = CommandType.StoredProcedure;
-
-                            // Thêm parameter 1: p_statement
-                            OracleParameter p1 = new OracleParameter("p_statement", OracleDbType.Varchar2);
-                            p1.Value = option;
-                            cmd.Parameters.Add(p1);
-
-                            // Thêm parameter 2: p_username
-                            OracleParameter p2 = new OracleParameter("p_username", OracleDbType.Varchar2);
-                            p2.Value = username;
-                            cmd.Parameters.Add(p2);
-
-                            // Thực thi stored procedure
-                            cmd.ExecuteNonQuery();
-                            successCount++;
-
-                            Console.WriteLine($"Đã gọi sp_drop_audit('{option}', '{username}')");
-                        }
-                    }
-                    catch (OracleException oraEx)
-                    {
-                        // Log lỗi Oracle
-                        string errorMsg = $"Lỗi Oracle {oraEx.Number}: {oraEx.Message}";
-                        failedOptions.Add($"{option} - {errorMsg}");
-                        Console.WriteLine(errorMsg);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Add("p_username", OracleDbType.Varchar2).Value = username;
+                        cmd.Parameters.Add("p_table_name", OracleDbType.Varchar2).Value = tableName;
+                        cmd.ExecuteNonQuery();
                     }
                 }
 
-                // Hiển thị kết quả
-                ShowResultMessage("Xóa", username, selectedOptions.Count, successCount, failedOptions);
+                MessageBox.Show("Đã xóa giám sát (FGA) thành công",
+                                "Thành công",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information);
 
-                // Refresh trạng thái audit
-                LoadUserAuditStatus();
+                objectAuditBuffer.Clear();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi khi xóa audit: {ex.Message}", "Lỗi",
-                               MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lỗi khi xóa giám sát: " + ex.Message);
             }
-
-
         }
+
         private void ShowResultMessage(string action, string username, int total,
                                  int success, List<string> failedOptions)
         {
@@ -438,6 +327,165 @@ namespace DA_N6.Views.Users
             {
                 MessageBox.Show(message, $"Thành công",
                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        //HÀM LOAD BẢNG
+        private void LoadTablesFromSP()
+        {
+            try
+            {
+                clbTable.Items.Clear();
+
+                using (OracleCommand cmd = new OracleCommand("sp_select_all_tables", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.Add("p_out", OracleDbType.RefCursor)
+                                  .Direction = ParameterDirection.Output;
+
+                    using (OracleDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string tableName = reader.GetString(0);
+                            clbTable.Items.Add(tableName, false);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Không thể load bảng: " + ex.Message);
+            }
+        }
+
+        //lấy quyền object đang chọn
+        private string GetSelectedObjectActions()
+        {
+            List<string> actions = new List<string>();
+
+            if (cbST.Checked) actions.Add("SELECT");
+            if (cbIT.Checked) actions.Add("INSERT");
+            if (cbUT.Checked) actions.Add("UPDATE");
+            if (cbDT.Checked) actions.Add("DELETE");
+
+            return string.Join(",", actions);
+        }
+        
+        private void clbTable_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            if (cbb_LIST_USER.SelectedItem == null) return;
+
+            if (!isSysUser)
+            {
+                MessageBox.Show("Bạn không có quyền thay đổi audit!");
+                e.NewValue = e.CurrentValue;
+                return;
+            }
+
+            string tableName = clbTable.Items[e.Index].ToString();
+            string actionsStr = GetSelectedObjectActions(); // SELECT,INSERT,...
+
+            if (string.IsNullOrEmpty(actionsStr))
+            {
+                MessageBox.Show("Vui lòng chọn ít nhất 1 quyền (SELECT / INSERT / UPDATE / DELETE)");
+                e.NewValue = e.CurrentValue;
+                return;
+            }
+
+            List<string> actions = actionsStr.Split(',').ToList();
+
+            if (e.NewValue == CheckState.Checked)
+            {
+                // CHỈ LƯU – KHÔNG GỌI ORACLE
+                objectAuditBuffer[tableName] = actions;
+            }
+            else
+            {
+                objectAuditBuffer.Remove(tableName);
+            }
+        }
+        private void LoadAuditLogsByUser(string username)
+        {
+           
+            try
+            {
+                using (OracleCommand cmd = new OracleCommand("SP_GET_AUDIT_LOGS_BY_USER", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.Add("p_username", OracleDbType.Varchar2).Value = username;
+                    cmd.Parameters.Add("p_cursor", OracleDbType.RefCursor)
+                                  .Direction = ParameterDirection.Output;
+
+                    OracleDataAdapter da = new OracleDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+
+                    dgvLoadLog.DataSource = dt;
+
+                    dgvLoadLog.AutoSizeColumnsMode =
+                        DataGridViewAutoSizeColumnsMode.Fill;
+
+                    dgvLoadLog.ReadOnly = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Không thể load audit log: " + ex.Message);
+            }
+        }
+
+        private void btn_Export_Click(object sender, EventArgs e)
+        {
+            if (dgvLoadLog.Rows.Count == 0)
+            {
+                MessageBox.Show("Không có dữ liệu để xuất!");
+                return;
+            }
+
+            SaveFileDialog sfd = new SaveFileDialog();
+            sfd.Filter = "Excel Workbook (*.xlsx)|*.xlsx";
+            sfd.FileName = "AuditLog.xlsx";
+
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    using (XLWorkbook wb = new XLWorkbook())
+                    {
+                        var ws = wb.Worksheets.Add("Audit Log");
+
+                        // ===== HEADER =====
+                        for (int i = 0; i < dgvLoadLog.Columns.Count; i++)
+                        {
+                            ws.Cell(1, i + 1).Value = dgvLoadLog.Columns[i].HeaderText;
+                            ws.Cell(1, i + 1).Style.Font.Bold = true;
+                        }
+
+                        // ===== DATA =====
+                        for (int i = 0; i < dgvLoadLog.Rows.Count; i++)
+                        {
+                            for (int j = 0; j < dgvLoadLog.Columns.Count; j++)
+                            {
+                                ws.Cell(i + 2, j + 1).Value =
+                                    dgvLoadLog.Rows[i].Cells[j].Value?.ToString();
+                            }
+                        }
+
+                        ws.Columns().AdjustToContents();
+                        wb.SaveAs(sfd.FileName);
+                    }
+
+                    MessageBox.Show("Xuất Excel thành công!",
+                                    "Thành công",
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi xuất Excel: " + ex.Message);
+                }
             }
         }
     }
