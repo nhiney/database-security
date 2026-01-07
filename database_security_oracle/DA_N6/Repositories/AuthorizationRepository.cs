@@ -179,5 +179,57 @@ namespace DA_N6.Repositories
             };
             DatabaseHelper.ExecuteProcedure("NAM_DOAN.P_GRANT_ROLE_TO_USER", parameters);
         }
+
+        // 10. Thu hồi Role khỏi User
+        public void RevokeRoleFromUser(string roleName, string username)
+        {
+            var parameters = new OracleParameter[] {
+                new OracleParameter("p_role_name", OracleDbType.Varchar2) { Value = roleName },
+                new OracleParameter("p_username", OracleDbType.Varchar2) { Value = username }
+            };
+            DatabaseHelper.ExecuteProcedure("NAM_DOAN.P_REVOKE_ROLE_FROM_USER", parameters);
+        }
+
+        // 11. Thu hồi quyền của Role
+        public void RevokePermissionFromRole(string role, string table, bool select, bool insert, bool update, bool delete)
+        {
+            var parameters = new OracleParameter[] {
+                new OracleParameter("p_role", OracleDbType.Varchar2) { Value = role },
+                new OracleParameter("p_table", OracleDbType.Varchar2) { Value = table },
+                new OracleParameter("p_select", OracleDbType.Int32) { Value = select ? 1 : 0 },
+                new OracleParameter("p_insert", OracleDbType.Int32) { Value = insert ? 1 : 0 },
+                new OracleParameter("p_update", OracleDbType.Int32) { Value = update ? 1 : 0 },
+                new OracleParameter("p_delete", OracleDbType.Int32) { Value = delete ? 1 : 0 }
+            };
+            DatabaseHelper.ExecuteProcedure("NAM_DOAN.P_REVOKE_PERMISSION_FROM_ROLE", parameters);
+        }
+
+        // 12. Kiểm tra quyền hiện tại của Role
+        public Dictionary<string, bool> CheckRolePermission(string role, string table)
+        {
+            var result = new Dictionary<string, bool> {
+                {"SELECT", false}, {"INSERT", false}, {"UPDATE", false}, {"DELETE", false}
+            };
+
+            var pSelect = new OracleParameter("p_select", OracleDbType.Int32, ParameterDirection.Output);
+            var pInsert = new OracleParameter("p_insert", OracleDbType.Int32, ParameterDirection.Output);
+            var pUpdate = new OracleParameter("p_update", OracleDbType.Int32, ParameterDirection.Output);
+            var pDelete = new OracleParameter("p_delete", OracleDbType.Int32, ParameterDirection.Output);
+
+            var parameters = new OracleParameter[] {
+                new OracleParameter("p_role_name", OracleDbType.Varchar2) { Value = role },
+                new OracleParameter("p_table", OracleDbType.Varchar2) { Value = table },
+                pSelect, pInsert, pUpdate, pDelete
+            };
+
+            DatabaseHelper.ExecuteProcedure("NAM_DOAN.P_CHECK_ROLE_PERMISSION", parameters);
+
+            result["SELECT"] = ConvertToInt(pSelect.Value) == 1;
+            result["INSERT"] = ConvertToInt(pInsert.Value) == 1;
+            result["UPDATE"] = ConvertToInt(pUpdate.Value) == 1;
+            result["DELETE"] = ConvertToInt(pDelete.Value) == 1;
+
+            return result;
+        }
     }
 }

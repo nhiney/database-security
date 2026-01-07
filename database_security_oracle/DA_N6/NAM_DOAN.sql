@@ -491,6 +491,9 @@ GRANT EXECUTE ON NAM_DOAN.P_GET_CURRENT_SESSION_INFO TO ROLE_USERS;
 GRANT EXECUTE ON NAM_DOAN.P_LOGOUT_SELECTED_DEVICE TO ROLE_USERS;
 GRANT EXECUTE ON NAM_DOAN.P_LOGOUT_ALL_DEVICE TO ROLE_USERS;
 GRANT EXECUTE ON NAM_DOAN.P_LOGOUT_CURRENT_DEVICE TO ROLE_USERS;
+GRANT EXECUTE ON NAM_DOAN.P_REVOKE_PERMISSION_FROM_ROLE TO ROLE_USERS;
+GRANT EXECUTE ON NAM_DOAN.P_REVOKE_ROLE_FROM_USER TO ROLE_USERS;
+GRANT EXECUTE ON NAM_DOAN.P_CHECK_ROLE_PERMISSION TO ROLE_USERS;
 
 
 -- =========================================================================
@@ -981,6 +984,22 @@ BEGIN
 END;
 /
 
+-- 10.6.1 Thu hoi quyen tu Role
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_REVOKE_PERMISSION_FROM_ROLE (
+    p_role      IN VARCHAR2,
+    p_table     IN VARCHAR2,
+    p_select    IN NUMBER,
+    p_insert    IN NUMBER,
+    p_update    IN NUMBER,
+    p_delete    IN NUMBER
+) AUTHID CURRENT_USER
+IS
+BEGIN
+    -- Su dung lai procedure P_REVOKE_PERMISSION
+    NAM_DOAN.P_REVOKE_PERMISSION(p_role, p_table, p_select, p_insert, p_update, p_delete);
+END;
+/
+
 -- 10.7 Gan Role cho User
 CREATE OR REPLACE PROCEDURE NAM_DOAN.P_GRANT_ROLE_TO_USER (
     p_role_name IN VARCHAR2,
@@ -989,6 +1008,17 @@ CREATE OR REPLACE PROCEDURE NAM_DOAN.P_GRANT_ROLE_TO_USER (
 IS
 BEGIN
     EXECUTE IMMEDIATE 'GRANT "' || p_role_name || '" TO "' || p_username || '"';
+END;
+/
+
+-- 10.7.1 Thu hoi Role khoi User
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_REVOKE_ROLE_FROM_USER (
+    p_role_name IN VARCHAR2,
+    p_username  IN VARCHAR2
+) AUTHID CURRENT_USER
+IS
+BEGIN
+    EXECUTE IMMEDIATE 'REVOKE "' || p_role_name || '" FROM "' || p_username || '"';
 END;
 /
 
@@ -1027,6 +1057,33 @@ BEGIN
         SELECT PRIVILEGE 
         FROM dba_tab_privs 
         WHERE GRANTEE = p_username 
+          AND TABLE_NAME = p_table
+          AND OWNER = 'NAM_DOAN'
+    ) LOOP
+        IF r.PRIVILEGE = 'SELECT' THEN p_select := 1; END IF;
+        IF r.PRIVILEGE = 'INSERT' THEN p_insert := 1; END IF;
+        IF r.PRIVILEGE = 'UPDATE' THEN p_update := 1; END IF;
+        IF r.PRIVILEGE = 'DELETE' THEN p_delete := 1; END IF;
+    END LOOP;
+END;
+/
+
+-- 10.9.1 Kiem tra quyen hien tai cua Role tren mot Bang
+CREATE OR REPLACE PROCEDURE NAM_DOAN.P_CHECK_ROLE_PERMISSION (
+    p_role_name IN VARCHAR2,
+    p_table     IN VARCHAR2,
+    p_select    OUT NUMBER,
+    p_insert    OUT NUMBER,
+    p_update    OUT NUMBER,
+    p_delete    OUT NUMBER
+) IS
+BEGIN
+    p_select := 0; p_insert := 0; p_update := 0; p_delete := 0;
+
+    FOR r IN (
+        SELECT PRIVILEGE 
+        FROM dba_tab_privs 
+        WHERE GRANTEE = p_role_name 
           AND TABLE_NAME = p_table
           AND OWNER = 'NAM_DOAN'
     ) LOOP

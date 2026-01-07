@@ -50,6 +50,7 @@ namespace DA_N6.Views.Authorization
             this.chkRoleUpdate = new System.Windows.Forms.CheckBox();
             this.chkRoleDelete = new System.Windows.Forms.CheckBox();
             this.btnGrantRolePerm = new System.Windows.Forms.Button();
+            this.btnRevokeRolePerm = new System.Windows.Forms.Button();
             
             this.grpAssignRole = new System.Windows.Forms.GroupBox();
             this.lblAssignUser = new System.Windows.Forms.Label();
@@ -57,6 +58,7 @@ namespace DA_N6.Views.Authorization
             this.lblAssignRole = new System.Windows.Forms.Label();
             this.cboAssignRoles = new System.Windows.Forms.ComboBox();
             this.btnAssignRole = new System.Windows.Forms.Button();
+            this.btnRevokeRoleFromUser = new System.Windows.Forms.Button();
 
             // 
             // tabControlAuth
@@ -238,6 +240,7 @@ namespace DA_N6.Views.Authorization
             // 
             // grpRolePerms
             // 
+            this.grpRolePerms.Controls.Add(this.btnRevokeRolePerm);
             this.grpRolePerms.Controls.Add(this.btnGrantRolePerm);
             this.grpRolePerms.Controls.Add(this.chkRoleDelete);
             this.grpRolePerms.Controls.Add(this.chkRoleUpdate);
@@ -265,6 +268,7 @@ namespace DA_N6.Views.Authorization
             this.cboRoles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboRoles.Location = new System.Drawing.Point(90, 27);
             this.cboRoles.Size = new System.Drawing.Size(190, 21);
+            this.cboRoles.SelectedIndexChanged += new System.EventHandler(this.cboRoles_SelectedIndexChanged);
 
             // 
             // lblRoleTable
@@ -279,6 +283,7 @@ namespace DA_N6.Views.Authorization
             this.cboRoleTables.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboRoleTables.Location = new System.Drawing.Point(370, 27);
             this.cboRoleTables.Size = new System.Drawing.Size(190, 21);
+            this.cboRoleTables.SelectedIndexChanged += new System.EventHandler(this.cboRoleTables_SelectedIndexChanged);
 
             // 
             // chkRoleSelect
@@ -312,13 +317,21 @@ namespace DA_N6.Views.Authorization
             // btnGrantRolePerm
             // 
             this.btnGrantRolePerm.Location = new System.Drawing.Point(90, 110);
-            this.btnGrantRolePerm.Size = new System.Drawing.Size(150, 30);
-            this.btnGrantRolePerm.Text = "Cấp quyền cho Role";
+            this.btnGrantRolePerm.Size = new System.Drawing.Size(130, 30);
+            this.btnGrantRolePerm.Text = "Cấp quyền Role";
             this.btnGrantRolePerm.Click += new System.EventHandler(this.btnGrantRolePerm_Click);
+            // 
+            // btnRevokeRolePerm
+            // 
+            this.btnRevokeRolePerm.Location = new System.Drawing.Point(230, 110);
+            this.btnRevokeRolePerm.Size = new System.Drawing.Size(130, 30);
+            this.btnRevokeRolePerm.Text = "Thu hồi quyền Role";
+            this.btnRevokeRolePerm.Click += new System.EventHandler(this.btnRevokeRolePerm_Click);
 
             // 
             // grpAssignRole
             // 
+            this.grpAssignRole.Controls.Add(this.btnRevokeRoleFromUser);
             this.grpAssignRole.Controls.Add(this.btnAssignRole);
             this.grpAssignRole.Controls.Add(this.cboAssignRoles);
             this.grpAssignRole.Controls.Add(this.lblAssignRole);
@@ -364,6 +377,13 @@ namespace DA_N6.Views.Authorization
             this.btnAssignRole.Size = new System.Drawing.Size(100, 30);
             this.btnAssignRole.Text = "Gán Role";
             this.btnAssignRole.Click += new System.EventHandler(this.btnAssignRole_Click);
+            // 
+            // btnRevokeRoleFromUser
+            // 
+            this.btnRevokeRoleFromUser.Location = new System.Drawing.Point(580, 60);
+            this.btnRevokeRoleFromUser.Size = new System.Drawing.Size(100, 30);
+            this.btnRevokeRoleFromUser.Text = "Gỡ Role";
+            this.btnRevokeRoleFromUser.Click += new System.EventHandler(this.btnRevokeRoleFromUser_Click);
 
             // 
             // AuthorizationForm
@@ -431,5 +451,7 @@ namespace DA_N6.Views.Authorization
         private System.Windows.Forms.Label lblAssignRole;
         private System.Windows.Forms.ComboBox cboAssignUsers;
         private System.Windows.Forms.Label lblAssignUser;
+        private System.Windows.Forms.Button btnRevokeRolePerm;
+        private System.Windows.Forms.Button btnRevokeRoleFromUser;
     }
 }

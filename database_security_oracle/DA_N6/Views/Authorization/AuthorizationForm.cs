@@ -58,6 +58,40 @@ namespace DA_N6.Views.Authorization
             }
         }
 
+        private void cboRoles_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CheckRolePermissions();
+        }
+
+        private void cboRoleTables_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CheckRolePermissions();
+        }
+
+        private void CheckRolePermissions()
+        {
+            if (cboRoles.SelectedItem == null || cboRoleTables.SelectedItem == null) return;
+
+            string role = cboRoles.SelectedItem.ToString();
+            string table = cboRoleTables.SelectedItem.ToString();
+
+            try
+            {
+                var perms = _repo.CheckRolePermission(role, table);
+                chkRoleSelect.Checked = perms["SELECT"];
+                chkRoleInsert.Checked = perms["INSERT"];
+                chkRoleUpdate.Checked = perms["UPDATE"];
+                chkRoleDelete.Checked = perms["DELETE"];
+            }
+            catch (Exception)
+            {
+                chkRoleSelect.Checked = false;
+                chkRoleInsert.Checked = false;
+                chkRoleUpdate.Checked = false;
+                chkRoleDelete.Checked = false;
+            }
+        }
+
         private void cboUsers_SelectedIndexChanged(object sender, EventArgs e)
         {
             CheckUserPermissions();
@@ -176,6 +210,24 @@ namespace DA_N6.Views.Authorization
             }
         }
 
+        private void btnRevokeRolePerm_Click(object sender, EventArgs e)
+        {
+            if (cboRoles.SelectedItem == null || cboRoleTables.SelectedItem == null) return;
+            string role = cboRoles.SelectedItem.ToString();
+            string table = cboRoleTables.SelectedItem.ToString();
+
+            try
+            {
+                _repo.RevokePermissionFromRole(role, table, chkRoleSelect.Checked, chkRoleInsert.Checked, chkRoleUpdate.Checked, chkRoleDelete.Checked);
+                MessageBox.Show($"Thu hồi quyền thành công của Role {role} trên bảng {table}");
+                CheckRolePermissions();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thu hồi quyền Role: " + ex.Message);
+            }
+        }
+
         private void btnAssignRole_Click(object sender, EventArgs e)
 
         {
@@ -191,6 +243,23 @@ namespace DA_N6.Views.Authorization
             catch (Exception ex)
             {
                 MessageBox.Show("Lỗi gán Role: " + ex.Message);
+            }
+        }
+
+        private void btnRevokeRoleFromUser_Click(object sender, EventArgs e)
+        {
+            if (cboAssignUsers.SelectedItem == null || cboAssignRoles.SelectedItem == null) return;
+            string user = cboAssignUsers.SelectedItem.ToString();
+            string role = cboAssignRoles.SelectedItem.ToString();
+
+            try
+            {
+                _repo.RevokeRoleFromUser(role, user);
+                MessageBox.Show($"Đã gỡ Role {role} khỏi User {user}");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi gỡ Role: " + ex.Message);
             }
         }
     }
